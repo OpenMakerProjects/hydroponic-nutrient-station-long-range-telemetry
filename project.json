@@ -1,0 +1,20 @@
+{
+  "id": 124,
+  "title": "Hydroponic Nutrient Station Long-Range Telemetry",
+  "repository_slug": "hydroponic-nutrient-station-long-range-telemetry",
+  "category": "Smart Agriculture",
+  "platform": "Raspberry Pi",
+  "platform_family": "python",
+  "difficulty": "Beginner",
+  "estimated_hours": 12,
+  "connectivity": "RS-485",
+  "components": [
+    "flow sensor",
+    "SHT31"
+  ],
+  "scope": "Build a smart agriculture prototype that uses flow sensor, SHT31 to report field measurements over long distances. Include setup instructions, a circuit diagram, tested firmware, and sample output.",
+  "key_deliverable": "Long-Range Telemetry demonstration with repeatable test steps",
+  "mode": "telemetry",
+  "entrypoint": "src/main.py",
+  "roadmap_source": "openmaker-2100-project-roadmap.xlsx"
+}
